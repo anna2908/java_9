@@ -8,7 +8,7 @@ public class RadioTest {
         Radio radio = new Radio();
 
         int expected = 10;
-        int actual = radio.getMaxStation();
+        int actual = radio.getCountStation();
 
         assertEquals(expected, actual);
     }
@@ -18,7 +18,7 @@ public class RadioTest {
         Radio radio = new Radio(15);
 
         int expected = 15;
-        int actual = radio.getMaxStation();
+        int actual = radio.getCountStation();
 
         assertEquals(expected, actual);
     }
